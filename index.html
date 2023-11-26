@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+  
+    <link rel="stylesheet" href="css/style.css" />
+    <title>📖The Bible-Trivia</title>
+</head>
+<body>
+
+
+    <section id="theQuiz">
+        <div class="container header">
+            <img src="#...." id="questionaireImage" class="header_img" />
+            <h1 id="questionareTitle"> -------- </h1>
+        </div>
+
+
+        <div class="container" id="quiz">
+
+            <div class="question" data-current-page="1" aria-live="polite">
+
+            </div>
+
+        </div>
+
+
+        <nav class="container pagination-container">
+            <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
+                back
+            </button>
+            <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
+                next
+            </button>
+        </nav>
+
+
+        <div class="container resultsBtn"><button id="submit">Get Results</button></div>
+
+    </section>
+
+    <section id="quizResults">
+        <div class="container resultsContainer" id="results"></div>
+    </section>
+
+    <script src="js/quizData.js"></script>
+    <script src="js/questionaire.js"></script>
+    <script src="js/pagesetup.js"></script>
+
+</body>
+</html>
